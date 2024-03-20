@@ -1,0 +1,19 @@
+{
+    "params list": [
+        {
+            "angular_pid": [
+                2,
+                2,
+                2
+            ],
+            "brake_distance": 465,
+            "linear_pid": [
+                1,
+                2,
+                3
+            ],
+            "max_linear": 1,
+            "max_w": 9
+        }
+    ]
+}

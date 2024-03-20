@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imgs/no_connect.png</file>
+        <file>imgs/connect.png</file>
+	    <file>imgs/setup.png</file>
+	    <file>imgs/user.png</file>
+	    <file>imgs/robot.png</file>
+	    <file>imgs/search.png</file>
+		<file>imgs/message.png</file>
+		<file>imgs/wifi_gray.png</file>
+		<file>imgs/wifi_yellow.png</file>
+		<file>imgs/wifi_green.png</file>
+		<file>imgs/wifi_red.png</file>
+		<file>imgs/close.png</file>
+		<file>imgs/add.png</file>
+		<file>imgs/down.png</file>
+		<file>imgs/up.png</file>
+    </qresource>
+</RCC>

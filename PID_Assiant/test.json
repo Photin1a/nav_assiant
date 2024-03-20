@@ -1,0 +1,49 @@
+//发送参数
+{
+    "require_type": "send_params",
+    "time_stamped":"2022.10.1...",
+        "angular_pid": [
+            7,
+            15,
+            5
+        ],
+        "brake_distance": 4,
+        "test_distance": 1,
+        "linear_pid": [
+            6,
+            1,
+            1
+        ],
+        "max_linear": 3,
+        "max_w": 3
+}
+{
+    "response_type": "received_params"
+}
+
+//启动
+{
+    "require_type":"start_to_test"
+}
+{
+    "response_type": "start_to_test"
+}
+{
+    "response_type": "finish_test"
+}
+
+//获取定位
+{
+    "require_type": "realtime_location"
+}
+{
+    "response_type": "realtime_location",
+    "time_stamped": "16463131133162115",
+    "localization":[2.1,5.2,1.0],
+    "Quaternion":[0,0,0,1],
+    "linear_velocity":[1,0,0],
+    "angular_velocity":[0,0,0],
+    "battery": 10,
+    "ping":466,
+    "confidence": 90
+}

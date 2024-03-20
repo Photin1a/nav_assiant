@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/Qt/5.15.2/gcc_64/include/**",
+                "${workspaceFolder}/PID_Assiant/build/pid_assiant_autogen/include",
+                "${workspaceFolder}/PID_Assiant/include",
+                "${workspaceFolder}/qtermwidget/lib",
+                "/opt/ros/melodic/include",
+                "/usr/include/**",
+                "/usr/include/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}

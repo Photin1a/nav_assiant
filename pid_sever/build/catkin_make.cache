@@ -1,0 +1,2 @@
+sever
+-DCATKIN_DEVEL_PREFIX=/home/photinia/Desktop/pid_sever/devel -DCMAKE_INSTALL_PREFIX=/home/photinia/Desktop/pid_sever/install -G Unix Makefiles
