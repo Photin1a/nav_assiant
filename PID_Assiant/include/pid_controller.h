@@ -16,7 +16,7 @@
 
 class PIDController : public QObject, BaseLocalPlanner {
   Q_OBJECT
-  Q_PLUGIN_METADATA(IID PLUGIN_IID FILE PLUGIN_JSON)
+  Q_PLUGIN_METADATA(IID PLUGIN_IID)
   Q_INTERFACES(BaseLocalPlanner)
 public:
   bool ComputeVelocityCommands(geometry_msgs::Twist &cmd_vel) override;

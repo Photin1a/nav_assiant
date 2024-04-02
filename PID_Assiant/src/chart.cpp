@@ -10,8 +10,8 @@ Chart::Chart(QString name, QWidget *parent) : QChartView(parent) {
   axis_y_ = new QValueAxis();
   axis_x_->setTitleText("X/m");
   axis_y_->setTitleText("Y/m");
-  axis_x_->setRange(0, 100);
-  axis_y_->setRange(0, 100);
+  axis_x_->setRange(-50, 50);
+  axis_y_->setRange(-50, 50);
   axis_x_->setGridLineVisible(true); //网格
   axis_y_->setGridLineVisible(true);
 

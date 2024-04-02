@@ -1,8 +1,0 @@
-prefix=/home/photinia/Desktop/pid_sever/install
-
-Name: sever
-Description: Description of sever
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -324,15 +324,15 @@ MainWindow::MainWindow(QWidget *parent)
   chart_1_layout_->addWidget(chart_1_);
   display_page_->ui->map->setLayout(chart_1_layout_);
   chart_2_ = new Chart("line speed");
-  chart_2_->axis_x_->setRange(0, 5);
-  chart_2_->axis_y_->setRange(0, 5);
+  chart_2_->axis_x_->setRange(0, 100);
+  chart_2_->axis_y_->setRange(-3, 3);
   chart_2_->axis_x_->setTitleText("t(sec)");
   chart_2_->axis_y_->setTitleText("m/s");
   chart_3_ = new Chart("angle speed");
-  chart_3_->axis_x_->setRange(0, 5);
-  chart_3_->axis_y_->setRange(0, 5);
+  chart_3_->axis_x_->setRange(0, 100);
+  chart_3_->axis_y_->setRange(-180, 180);
   chart_3_->axis_x_->setTitleText("t(sec)");
-  chart_3_->axis_y_->setTitleText("m/s");
+  chart_3_->axis_y_->setTitleText("°/s");
   display_page_->ui->line_speed->setWidget(chart_2_);
   display_page_->ui->angle_speed->setWidget(chart_3_);
   chart_1_->update(); //更新绘图，可以指定区域
@@ -709,6 +709,7 @@ void MainWindow::DoTask(const QString &buf) {
   if (response == "realtime_location") {
     //处理定位数据
     auto time_stamped = obj.value("time_stamped").toString().toDouble(); //单位S
+    // qDebug()<<"time_stamped:"<<time_stamped<<endl;
     struct photinia::Position pos = {
         obj.value("localization").toArray().at(0).toDouble(),
         obj.value("localization").toArray().at(1).toDouble(),
@@ -719,23 +720,25 @@ void MainWindow::DoTask(const QString &buf) {
         obj.value("Quaternion").toArray().at(2).toDouble(),
         obj.value("Quaternion").toArray().at(3).toDouble()};
     chart_1_->line_->append(pos.x, pos.y);
+    // qDebug()<<"pos:"<<pos.x<<" "<<pos.y<<" "<<pos.z<<endl;
     chart_2_->line_->append(
         time_stamped,
-        obj.value("linear_velocity").toArray().at(0).toDouble()); //线速度 todo
+        obj.value("linear_velocity").toArray().at(0).toDouble()); //线速度x todo
     chart_3_->line_->append(
         time_stamped,
-        obj.value("angular_velocity").toArray().at(0).toDouble()); //角速度 todo
+        obj.value("angular_velocity").toArray().at(2).toDouble()*57.3); //角速度z todo
+    chart_2_->axis_x_->setMin(chart_2_->line_->at(0).x());
+    chart_3_->axis_x_->setMin(chart_3_->line_->at(0).x());
     auto num_v = chart_2_->line_->count();
     auto num_w = chart_3_->line_->count();
-    // Warn(QString::number(num_v) + " " + QString::number(num_w) + " " +
-    //      QString::number(num));
+    // Warn(QString::number(num_v) + " " + QString::number(num_w));
     if (chart_2_->line_->at(num_v - 1).x() > chart_2_->axis_x_->max()) {
       chart_2_->axis_x_->setMax(chart_2_->line_->at(num_v - 1).x());
       if (num_v > 300) {
         chart_2_->line_->remove(0);
         chart_2_->axis_x_->setMin(chart_2_->line_->at(0).x());
       }
-    }q
+    }
     if (chart_3_->line_->at(num_w - 1).x() > chart_3_->axis_x_->max()) {
       chart_3_->axis_x_->setMax(chart_3_->line_->at(num_w - 1).x());
       if (num_w > 300) {
@@ -753,7 +756,7 @@ void MainWindow::DoTask(const QString &buf) {
     robot_ptr->position_ = pos;
     robot_ptr->quaternion_ = qua;
     robot_ptr->battery_ = obj.value("battery").toDouble();
-    robot_ptr->confidence_ = obj.value("confidence").toDouble();
+    robot_ptr->confidence_ = obj.value("confidence").toDouble()*100;//百分制
     robot_ptr->ping_ = obj.value("ping").toDouble();
     SetupStateBar(robot_ptr);
     // num++;

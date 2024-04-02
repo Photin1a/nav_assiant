@@ -1,6 +1,6 @@
-/home/photinia/Documents/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/install/strip.dir
-/home/photinia/Documents/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/install.dir
-/home/photinia/Documents/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/install/local.dir
-/home/photinia/Documents/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/list_install_components.dir
-/home/photinia/Documents/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/edit_cache.dir
-/home/photinia/Documents/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/rebuild_cache.dir
+/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/edit_cache.dir
+/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/rebuild_cache.dir
+/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/list_install_components.dir
+/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/install.dir
+/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/install/local.dir
+/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/install/strip.dir

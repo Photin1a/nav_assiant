@@ -153,6 +153,7 @@
 #define __cpp_nsdmi 200809
 #define __FLT64X_MIN_EXP__ (-16381)
 #define __SIZEOF_WINT_T__ 4
+#define pid_controller_EXPORTS 1
 #define __LONG_LONG_WIDTH__ 64
 #define __cpp_initializer_lists 200806
 #define __FLT32_MAX_EXP__ 128

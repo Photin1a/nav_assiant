@@ -22,7 +22,7 @@ set(LXQT_SHARE_DIR          "/usr/local/share/lxqt")
 set(LXQT_RELATIVE_TRANSLATIONS_DIR "lxqt/translations")
 set(LXQT_TRANSLATIONS_DIR   "/usr/local/share/lxqt/translations")
 set(LXQT_GRAPHICS_DIR       "/usr/local/share/lxqt/graphics")
-set(LXQT_ETC_XDG_DIR        "/opt/Qt/5.15.2/gcc_64")
+set(LXQT_ETC_XDG_DIR        "/etc/xdg")
 set(LXQT_DATA_DIR           "/usr/local/share")
 
 add_definitions("-DLXQT_RELATIVE_SHARE_DIR=\"${LXQT_RELATIVE_SHARE_DIR}\"")

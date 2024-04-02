@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(pid_assiant  VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_EXPORT_COMPILE_COMMANDS on)
 
 #打开UIC，自动将ui文件转换为.h文件
 #保证UI文件和cpp文件在一个文件夹即可，后续不用在工程中再添加ui文件，因为在.cpp中才包含ui_.h
@@ -74,6 +75,9 @@ include/pid_controller.h  #头文件也要放进来一起编译，不然运行�
 )
 set_target_properties(pid_controller PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY ${PLUGIN_DIR}
+)
+target_sources(pid_controller PRIVATE
+${PLUGIN_DIR}/base_local_planner.json
 )
 target_link_libraries(pid_controller PRIVATE 
 Qt5::Core

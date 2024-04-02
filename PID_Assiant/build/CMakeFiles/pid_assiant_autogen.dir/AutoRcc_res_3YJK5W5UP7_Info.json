@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/pid_assiant_autogen",
+	"CMAKE_BINARY_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant",
+	"CMAKE_SOURCE_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant",
+	"INCLUDE_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/pid_assiant_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/close.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/wifi_green.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/up.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/robot.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/wifi_red.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/down.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/no_connect.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/add.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/wifi_yellow.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/message.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/setup.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/search.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/user.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/connect.png",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/imgs/wifi_gray.png"
+	],
+	"LOCK_FILE" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/CMakeFiles/pid_assiant_autogen.dir/AutoRcc_res_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "/opt/Qt/5.15.2/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/CMakeFiles/pid_assiant_autogen.dir/AutoRcc_res_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/res.qrc",
+	"VERBOSITY" : 0
+}

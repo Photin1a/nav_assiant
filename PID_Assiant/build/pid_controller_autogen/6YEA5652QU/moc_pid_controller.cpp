@@ -113,13 +113,6 @@ static constexpr unsigned char qt_pluginMetaData[] = {
     // "className"
     0x03,  0x6d,  'P',  'I',  'D',  'C',  'o',  'n', 
     't',  'r',  'o',  'l',  'l',  'e',  'r', 
-    // "MetaData"
-    0x04,  0xa1,  0x68,  'M',  'e',  't',  'a',  'D', 
-    'a',  't',  'a',  0xa2,  0x64,  'N',  'a',  'm', 
-    'e',  0x70,  'B',  'a',  's',  'e',  'L',  'o', 
-    'c',  'a',  'l',  'P',  'l',  'a',  'n',  'n', 
-    'e',  'r',  0x67,  'V',  'e',  'r',  's',  'i', 
-    'o',  'n',  0x01, 
     0xff, 
 };
 QT_MOC_EXPORT_PLUGIN(PIDController, PIDController)

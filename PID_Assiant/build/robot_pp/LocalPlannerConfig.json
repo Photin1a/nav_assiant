@@ -1,0 +1,12 @@
+{
+    "max_v": 2,
+    "max_w": 3,
+    "pos_d": 3,
+    "pos_i": 2,
+    "pos_limit_i": 0,
+    "pos_p": 15.6,
+    "yaw_d": 3,
+    "yaw_i": 4.18,
+    "yaw_limit_i": 0,
+    "yaw_p": 3
+}

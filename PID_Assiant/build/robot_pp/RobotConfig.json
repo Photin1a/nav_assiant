@@ -1,0 +1,11 @@
+{
+    "brake_distance": 5,
+    "detail": "empty",
+    "ip": "127.0.0.1",
+    "max_v": 2,
+    "max_w": 3,
+    "name": "pp",
+    "port": "4042",
+    "signal_model": "TCP",
+    "test_distance": 5
+}

@@ -224,6 +224,8 @@ public:
 
         pos_p_box = new QDoubleSpinBox(groupBox_2);
         pos_p_box->setObjectName(QString::fromUtf8("pos_p_box"));
+        pos_p_box->setMinimum(-9999999.000000000000000);
+        pos_p_box->setMaximum(9999999.000000000000000);
 
         horizontalLayout->addWidget(pos_p_box);
 
@@ -239,6 +241,8 @@ public:
 
         pos_i_box = new QDoubleSpinBox(groupBox_2);
         pos_i_box->setObjectName(QString::fromUtf8("pos_i_box"));
+        pos_i_box->setMinimum(-9999999.000000000000000);
+        pos_i_box->setMaximum(9999999.000000000000000);
 
         horizontalLayout_2->addWidget(pos_i_box);
 
@@ -254,6 +258,8 @@ public:
 
         pos_d_box = new QDoubleSpinBox(groupBox_2);
         pos_d_box->setObjectName(QString::fromUtf8("pos_d_box"));
+        pos_d_box->setMinimum(-9999999.000000000000000);
+        pos_d_box->setMaximum(9999999.000000000000000);
 
         horizontalLayout_3->addWidget(pos_d_box);
 
@@ -288,6 +294,8 @@ public:
 
         yaw_p_box = new QDoubleSpinBox(groupBox_2);
         yaw_p_box->setObjectName(QString::fromUtf8("yaw_p_box"));
+        yaw_p_box->setMinimum(-9999999.000000000000000);
+        yaw_p_box->setMaximum(9999999.000000000000000);
 
         horizontalLayout_15->addWidget(yaw_p_box);
 
@@ -303,6 +311,8 @@ public:
 
         yaw_i_box = new QDoubleSpinBox(groupBox_2);
         yaw_i_box->setObjectName(QString::fromUtf8("yaw_i_box"));
+        yaw_i_box->setMinimum(-9999999.000000000000000);
+        yaw_i_box->setMaximum(9999999.000000000000000);
 
         horizontalLayout_16->addWidget(yaw_i_box);
 
@@ -318,6 +328,8 @@ public:
 
         yaw_d_box = new QDoubleSpinBox(groupBox_2);
         yaw_d_box->setObjectName(QString::fromUtf8("yaw_d_box"));
+        yaw_d_box->setMinimum(-9999999.000000000000000);
+        yaw_d_box->setMaximum(9999999.000000000000000);
 
         horizontalLayout_17->addWidget(yaw_d_box);
 
@@ -361,6 +373,8 @@ public:
 
         max_v_box = new QDoubleSpinBox(groupBox_2);
         max_v_box->setObjectName(QString::fromUtf8("max_v_box"));
+        max_v_box->setMinimum(-9999999.000000000000000);
+        max_v_box->setMaximum(9999999.000000000000000);
 
         horizontalLayout_8->addWidget(max_v_box);
 
@@ -376,6 +390,8 @@ public:
 
         max_w_box = new QDoubleSpinBox(groupBox_2);
         max_w_box->setObjectName(QString::fromUtf8("max_w_box"));
+        max_w_box->setMinimum(-9999999.000000000000000);
+        max_w_box->setMaximum(9999999.000000000000000);
 
         horizontalLayout_19->addWidget(max_w_box);
 

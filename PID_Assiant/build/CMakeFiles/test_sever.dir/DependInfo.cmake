@@ -1,29 +1,16 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/photinia/Documents/nav_assiant/PID_Assiant/src/tcp_connect.cpp" "/home/photinia/Documents/nav_assiant/PID_Assiant/build/CMakeFiles/test_sever.dir/src/tcp_connect.cpp.o"
-  "/home/photinia/Documents/nav_assiant/PID_Assiant/src/tcp_sever_test.cpp" "/home/photinia/Documents/nav_assiant/PID_Assiant/build/CMakeFiles/test_sever.dir/src/tcp_sever_test.cpp.o"
-  "/home/photinia/Documents/nav_assiant/PID_Assiant/build/test_sever_autogen/mocs_compilation.cpp" "/home/photinia/Documents/nav_assiant/PID_Assiant/build/CMakeFiles/test_sever.dir/test_sever_autogen/mocs_compilation.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "QT_CORE_LIB"
-  "QT_NETWORK_LIB"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "test_sever_autogen/include"
-  "../include"
-  "/opt/Qt/5.15.2/gcc_64/include"
-  "/opt/Qt/5.15.2/gcc_64/include/QtCore"
-  "/opt/Qt/5.15.2/gcc_64/./mkspecs/linux-g++"
-  "/opt/Qt/5.15.2/gcc_64/include/QtNetwork"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/tcp_connect.cpp" "CMakeFiles/test_sever.dir/src/tcp_connect.cpp.o" "gcc" "CMakeFiles/test_sever.dir/src/tcp_connect.cpp.o.d"
+  "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/tcp_sever_test.cpp" "CMakeFiles/test_sever.dir/src/tcp_sever_test.cpp.o" "gcc" "CMakeFiles/test_sever.dir/src/tcp_sever_test.cpp.o.d"
+  "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/test_sever_autogen/mocs_compilation.cpp" "CMakeFiles/test_sever.dir/test_sever_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/test_sever.dir/test_sever_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links.

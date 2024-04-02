@@ -24,8 +24,8 @@ endmacro()
 
 ####################################################################################
 
-set(LXQT_CMAKE_MODULES_DIR "/home/photinia/Documents/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/lxqt-build-tools/cmake/modules/")
-set(LXQT_CMAKE_FIND_MODULES_DIR "/home/photinia/Documents/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/lxqt-build-tools/cmake/find-modules/")
+set(LXQT_CMAKE_MODULES_DIR "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/lxqt-build-tools/cmake/modules/")
+set(LXQT_CMAKE_FIND_MODULES_DIR "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/lxqt-build-tools-0.13.0/build/CMakeFiles/lxqt-build-tools/cmake/find-modules/")
 
 list(APPEND CMAKE_MODULE_PATH
     "${LXQT_CMAKE_MODULES_DIR}"

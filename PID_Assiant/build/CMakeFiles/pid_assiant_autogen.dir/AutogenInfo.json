@@ -1,0 +1,276 @@
+{
+	"BUILD_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/pid_assiant_autogen",
+	"CMAKE_BINARY_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/CMakeLists.txt",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/CMakeFiles/3.25.2/CMakeSystem.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeGenericSystem.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake",
+		"/usr/share/cmake-3.25/Modules/Platform/Linux.cmake",
+		"/usr/share/cmake-3.25/Modules/Platform/UnixPaths.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeCXXInformation.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake",
+		"/usr/share/cmake-3.25/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeParseArguments.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/share/cmake-3.25/Modules/CMakeParseArguments.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/cmake/qtermwidget5-config-version.cmake",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/cmake/qtermwidget5-config.cmake",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/cmake/qtermwidget5-targets.cmake",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/base_local_planner.json",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/resources/res.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/chart.h",
+			"MU",
+			"6YEA5652QU/moc_chart.cpp",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/display.h",
+			"MU",
+			"6YEA5652QU/moc_display.cpp",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/mainwindow.h",
+			"MU",
+			"6YEA5652QU/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/robot.h",
+			"MU",
+			"6YEA5652QU/moc_robot.cpp",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/robot_master.h",
+			"MU",
+			"6YEA5652QU/moc_robot_master.cpp",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/tcp_connect.h",
+			"MU",
+			"6YEA5652QU/moc_tcp_connect.cpp",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/terminalpage.h",
+			"MU",
+			"6YEA5652QU/moc_terminalpage.cpp",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/toolpage.h",
+			"MU",
+			"6YEA5652QU/moc_toolpage.cpp",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include/types.h",
+			"MU",
+			"6YEA5652QU/moc_types.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/pid_assiant_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/pid_assiant_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CHARTS_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/include",
+		"/opt/Qt/5.15.2/gcc_64/include",
+		"/opt/Qt/5.15.2/gcc_64/include/QtWidgets",
+		"/opt/Qt/5.15.2/gcc_64/include/QtGui",
+		"/opt/Qt/5.15.2/gcc_64/include/QtCore",
+		"/opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
+		"/opt/Qt/5.15.2/gcc_64/include/QtCharts",
+		"/opt/Qt/5.15.2/gcc_64/include/QtNetwork",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/qtermwidget/lib",
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/qtermwidget/build/lib",
+		"/usr/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/pid_assiant_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/CMakeFiles/pid_assiant_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/opt/Qt/5.15.2/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/opt/Qt/5.15.2/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/build/CMakeFiles/pid_assiant_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/chart.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/display.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/robot.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/robot_master.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/tcp_connect.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/terminalpage.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/toolpage.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/src/types.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : 
+	[
+		"/home/photinia/Documents/nav_assiant_sever_ws/nav_assiant/PID_Assiant/ui"
+	],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
